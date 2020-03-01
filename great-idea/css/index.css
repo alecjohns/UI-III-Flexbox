@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container{
-	max-width: 900px;
+	max-width: 975px;
 	margin: 0 auto;
 }
 
@@ -74,14 +74,13 @@ h1, h2, h3, h4, h5 {
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-width: 800px;
 margin: 0 auto;
 }
 
 .nav1 a{
 	text-decoration: none;
 	color: grey;
-	margin: 5%;
+	margin: 5%
 }
 
 .left-top{
@@ -105,10 +104,11 @@ h1 .button{
 /////////////////////////////////////////////////
 }
 
-.text-container{
+.top-content{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	border-top: 1px solid black;
@@ -117,8 +117,39 @@ h1 .button{
 .bottom-content{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
-	padding-top: 40px;
+	justify-content: space-between;
+	padding-top: 10px;
 	padding-bottom: 40px;
 	border-bottom: 1px solid black;
 }
+
+.lower{
+	padding-top: 20px;
+	display: flex;
+	margin: 0 auto;
+	max-width: 975px;
+}
+
+.tel{
+	line-height: 200%;
+	text-decoration: none;
+	color: black;
+}
+
+.sales{
+	line-height: 200%;
+	text-decoration: none;
+	color: black;
+}
+
+
+footer{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.middle-img{
+	padding-top: 20px;
+}
+
